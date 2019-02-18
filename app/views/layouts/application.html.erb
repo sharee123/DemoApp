@@ -45,7 +45,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">DemoApp</a>
+<!--         <a class="navbar-brand" href="#">DemoApp</a>
+ -->        <a class="brand" href="/">DemoApp</a>
+           <div class="container-fluid nav-collapse">
+           <ul class="nav">
+           <li><%= link_to "Accounts", accounts_path%></li>
+           </ul>
+           </div><!--/.nav-collapse -->
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
             <li><%= link_to "Link1", "/path1"  %></li>
